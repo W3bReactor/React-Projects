@@ -1,0 +1,27 @@
+@import "src/assets/styles/variables";
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: $white;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+}
+
+.red {
+  background-color: #ED3024;
+  box-shadow: 0px 7px 17px -10px rgba(242, 63, 63, 0.2);
+}
+
+.blue {
+  background-color: #3137C9;
+  box-shadow: 0px 7px 17px -10px rgba(32, 84, 219, 0.35);
+}

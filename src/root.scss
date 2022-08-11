@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Roboto-Regular.woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Roboto-Light.woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Roboto-Medium.woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/fonts/Lato-Regular.woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+}
+
+.App {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #181818;
+}
+
+.content {
+  padding: 60px 0;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}

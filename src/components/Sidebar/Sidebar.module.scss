@@ -1,0 +1,66 @@
+@import "../../assets/styles/variables";
+.sidebar {
+    position: relative;
+    background-color: $black;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    min-height: 100%;
+}
+
+.fixed {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.sidebarInner {
+    padding: 0 15px;
+}
+
+.icon {
+    margin-top: -50%;
+    border-radius: 100%;
+    border: 2px solid $white;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.25);
+}
+
+.name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: $white;
+    margin-bottom: 3px;
+}
+
+.info {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: $gray;
+    margin-bottom: 17px;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: $white;
+    padding: 30px 0;
+    margin: 30px 0;
+    border-top: 1px solid #1C1C1C;
+    border-bottom: 1px solid #1C1C1C;
+}
+
+.backgroundSidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.buttons {
+    max-width: 260px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

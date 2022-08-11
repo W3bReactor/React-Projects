@@ -1,0 +1,25 @@
+@import "../../assets/styles/variables";
+
+
+
+.read {
+  padding: 30px 0;
+  border-top: 1px solid $dark;
+  border-bottom: 1px solid $dark;
+}
+
+.readTitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: $white;
+}
+
+.readWrapper {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 25px;
+}
+

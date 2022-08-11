@@ -1,0 +1,23 @@
+@import "../../assets/styles/variables";
+
+
+.input {
+  width: 340px;
+  padding: 9px 0;
+  border: none;
+  border-bottom: 1px solid #3F3F3F;
+  background-color: transparent;
+  outline: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: $white;
+  transition: all 0.2s;
+  margin-bottom: 25px;
+  &:focus {
+    border-bottom: 1px solid $blue;
+  }
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.2);
+  }
+}

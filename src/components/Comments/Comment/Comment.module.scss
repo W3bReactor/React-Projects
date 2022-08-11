@@ -1,0 +1,55 @@
+@import "../../../assets/styles/variables";
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.info {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: $white;
+}
+
+.time {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #757575;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.comment {
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: $white;
+}
+
+.reply {
+  width: fit-content;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: $blue;
+}

@@ -1,0 +1,43 @@
+@import "../../../assets/styles/variables";
+.inner {
+  height: 83vh;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 21px;
+  color: $white;
+}
+
+.form {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.selectImage {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.file {
+  display: none;
+
+}
+
+.selectFile {
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: $blue;
+}

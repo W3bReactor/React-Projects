@@ -1,0 +1,52 @@
+@import "../../../assets/styles/variables";
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  background-color: $black;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px 25px 30px 25px;
+}
+
+
+.back {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: $white;
+  opacity: 0.6;
+}
+
+.title {
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: $white;
+  margin-bottom: 5px;
+}
+
+.image {
+  margin: 25px 0;
+}
+
+.time {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+}
+
+.content {
+  padding: 30px 0;
+}
+
+.desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: $white;
+}

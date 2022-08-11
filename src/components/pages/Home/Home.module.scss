@@ -1,0 +1,10 @@
+@import "src/assets/styles/variables";
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px ;
+}
+
+
+
