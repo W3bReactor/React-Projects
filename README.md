@@ -4,7 +4,7 @@
 <ul>
     <li>REACT</li>
     <li>REDUX</li>
-    <li>TYPESCIRPT</li>
+    <li>TYPESCRIPT</li>
     <li>NEXT (Не трогал)</li>
     <li>NODE (Не трогал)</li>
 </ul>
