@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/React-Projects/static/css/main.2bca5655.css",
+    "main.js": "/React-Projects/static/js/main.823c5d35.js",
+    "static/media/Lato-Regular.woff2": "/React-Projects/static/media/Lato-Regular.bb882f4771ef3a86e3a1.woff2",
+    "static/media/dev-haski.jpg": "/React-Projects/static/media/dev-haski.cf819be1b729c0c3d4fe.jpg",
+    "static/media/work-1.jpg": "/React-Projects/static/media/work-1.51877b4c04f2b163982a.jpg",
+    "static/media/backgroud-about.jpg": "/React-Projects/static/media/backgroud-about.2a3bf1b431f75dd652c4.jpg",
+    "static/media/Roboto-Medium.woff2": "/React-Projects/static/media/Roboto-Medium.fc0337b9cf1cce2e6e1e.woff2",
+    "static/media/Roboto-Regular.woff2": "/React-Projects/static/media/Roboto-Regular.a25806274237d06e00a6.woff2",
+    "static/media/Roboto-Light.woff2": "/React-Projects/static/media/Roboto-Light.d537674e9e217fa53a13.woff2",
+    "static/media/avator-not-logged.png": "/React-Projects/static/media/avator-not-logged.28e44cb7f5d2425541e5.png",
+    "static/media/background-sidebar.jpg": "/React-Projects/static/media/background-sidebar.f8f5c71142f8d595bf9d.jpg",
+    "static/media/inst.svg": "/React-Projects/static/media/inst.baaa04738d9b12d63b7c40bbc1d8222c.svg",
+    "static/media/vk.svg": "/React-Projects/static/media/vk.f616e83fb7c6590043142aea5f87717f.svg",
+    "static/media/pint.svg": "/React-Projects/static/media/pint.5bf5745b2d1295ee5a45912bebb0f4a8.svg",
+    "static/media/selectPhoto.svg": "/React-Projects/static/media/selectPhoto.99221073616d8c726c0d.svg",
+    "static/media/send.svg": "/React-Projects/static/media/send.27616520435a117f344f.svg",
+    "index.html": "/React-Projects/index.html",
+    "static/media/play.svg": "/React-Projects/static/media/play.1d6be6f0e521f3568a1a.svg",
+    "static/media/polygon.svg": "/React-Projects/static/media/polygon.405b4b79e9f154e118747d024a15a83a.svg",
+    "main.2bca5655.css.map": "/React-Projects/static/css/main.2bca5655.css.map",
+    "main.823c5d35.js.map": "/React-Projects/static/js/main.823c5d35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bca5655.css",
+    "static/js/main.823c5d35.js"
+  ]
+}
