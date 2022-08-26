@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Projects/static/css/main.099c7968.css",
-    "main.js": "/React-Projects/static/js/main.5432bdd0.js",
+    "main.js": "/React-Projects/static/js/main.29e330b9.js",
     "static/media/Lato-Regular.woff2": "/React-Projects/static/media/Lato-Regular.bb882f4771ef3a86e3a1.woff2",
     "static/media/dev-haski.jpg": "/React-Projects/static/media/dev-haski.cf819be1b729c0c3d4fe.jpg",
     "static/media/work-1.jpg": "/React-Projects/static/media/work-1.51877b4c04f2b163982a.jpg",
@@ -20,10 +20,10 @@
     "static/media/play.svg": "/React-Projects/static/media/play.1d6be6f0e521f3568a1a.svg",
     "static/media/polygon.svg": "/React-Projects/static/media/polygon.405b4b79e9f154e118747d024a15a83a.svg",
     "main.099c7968.css.map": "/React-Projects/static/css/main.099c7968.css.map",
-    "main.5432bdd0.js.map": "/React-Projects/static/js/main.5432bdd0.js.map"
+    "main.29e330b9.js.map": "/React-Projects/static/js/main.29e330b9.js.map"
   },
   "entrypoints": [
     "static/css/main.099c7968.css",
-    "static/js/main.5432bdd0.js"
+    "static/js/main.29e330b9.js"
   ]
 }
