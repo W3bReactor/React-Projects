@@ -1,0 +1,109 @@
+@import "../../assets/styles/variables";
+
+.background {
+  position: fixed; /* фиксированное положение */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: rgba(0,0,0,0.5); /* цвет фона */
+  opacity: 1;
+  pointer-events: auto;
+  overflow-y: auto;
+}
+
+
+.inner {
+  opacity: 1;
+  position: relative;
+  object-fit: cover;
+  max-width: 427px;
+  max-height: 588px;
+  width: 100%  !important;
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+  background-clip: padding-box;
+  outline: 0;
+  border-radius: 20px;
+
+}
+
+.video {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+  object-fit: fill;
+  max-width: 427px;
+  max-height: 588px;
+  width: 100%  !important;
+  height: 100% !important;
+}
+
+.btn {
+  border: none;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  z-index: 100;
+  cursor: pointer;
+  outline: none;
+}
+
+.playBtn {
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  background: transparent url("../../assets/images/play.svg") no-repeat center center;
+}
+
+
+.pauseBtn {
+  width: 21px;
+  height: 25px;
+  background-color: transparent;
+  transition: background 0.2s linear;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 21px;
+    background-color: $white;
+    transition: background 0.2s linear;
+
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 8px;
+    height: 21px;
+    background-color: $white;
+    transition: background 0.2s linear;
+
+  }
+}
+
+.progress {
+  position: absolute;
+  bottom: 23px;
+  right: 80px;
+  width: 280px;
+  cursor: pointer;
+}
+
+.progressContent {
+  width: 100%;
+}
+
+.progressBar {
+  width: 100%;
+}

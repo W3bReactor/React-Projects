@@ -16,10 +16,10 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  color: rgba(255, 255, 255, 0.2);
   background-color: transparent;
   border: none;
   outline: none;
+  color: $white;
   border-bottom: 1px solid #3F3F3F;
   margin-bottom: 12px;
 }
@@ -36,4 +36,9 @@
   margin-top: 50px;
   display: flex;
   flex-direction: column;
+}
+
+.error {
+  color: $white;
+  font-weight: 500;
 }

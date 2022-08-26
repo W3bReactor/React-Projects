@@ -5,6 +5,11 @@
   padding: 30px 0;
 }
 
+.textareaInner {
+  position: relative;
+  padding: 20px 0;
+}
+
 .textarea {
   padding: 28px 140px 28px 28px;
   font-weight: 400;
@@ -36,4 +41,23 @@
   border: none;
   border-radius: 100%;
   cursor: pointer;
+}
+
+.selectFile {
+  position: absolute;
+  right: 75px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-size: cover;
+  background: #EBEBEB url('../../assets/images/selectPhoto.svg') no-repeat center center;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+
+}
+
+.selectFileDisable {
+  display: none;
 }

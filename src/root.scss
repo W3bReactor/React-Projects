@@ -35,7 +35,7 @@ body {
   display: flex;
   max-width: 100%;
   width: 100%;
-
+  min-height: 100vh;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -71,4 +71,22 @@ p {
   max-width: 600px;
   width: 100%;
   margin: 0 auto;
+}
+
+.react-player__preview {
+  background-size: auto !important;
+  border-radius: 15px !important;
+}
+
+.react-player__play-icon{
+  display: none !important;
+}
+
+.react-player__shadow {
+  display: none !important;
+}
+
+.block {
+  overflow:hidden;
+  height: 100vh;
 }

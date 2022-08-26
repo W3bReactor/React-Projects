@@ -1,0 +1,30 @@
+@import "../../../assets/styles/variables";
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 83vh;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   span {
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 14px;
+     color: $white;
+   }
+}
+
+.link {
+  margin: 0 5px ;
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: $white;
+}
